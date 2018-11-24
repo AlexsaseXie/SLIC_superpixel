@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SLICClass</class>
+ <widget class="QWidget" name="SLICClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SLIC</string>
+  </property>
+  <widget class="QPushButton" name="input_img_Button">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>53</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>input image</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="input_path_Label">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>40</y>
+     <width>381</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string>lena512color.bmp</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="output_path_Label">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>107</y>
+     <width>381</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>output.png</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="output_img_Button">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>120</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>output image</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="work_Button">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>260</y>
+     <width>201</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Do superpixel!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Superpixel's K:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="K_Edit">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>180</y>
+     <width>311</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="text">
+    <string>1000</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="SLIC.qrc"/>
+ </resources>
+ <connections/>
+</ui>
